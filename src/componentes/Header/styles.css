@@ -1,0 +1,13 @@
+.cabecalho{
+     background-color: var(--color-white);
+     display: flex;
+     flex-direction: row;
+     
+}
+
+.btn{
+     margin-left: auto;
+}
+.centro{
+     text-align: center;
+}

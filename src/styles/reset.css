@@ -1,0 +1,22 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+button{
+     cursor: pointer;
+     background: transparent;
+     border: none;
+     
+}
+
+.paragraph{
+     font-family: var(--font-secundary);
+     font-weight: 400;
+     font-size: 1rem;
+     line-height: 1.8;
+     }
+img{
+     max-width: 100%;
+}
