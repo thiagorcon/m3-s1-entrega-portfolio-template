@@ -1,5 +1,5 @@
 import '../TechSection/styles.css'
-import technologies from '../../data/technologies';
+import {technologies} from '../../data/technologies';
 const TechSection = () => {
    
     return (

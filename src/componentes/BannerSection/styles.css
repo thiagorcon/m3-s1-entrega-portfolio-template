@@ -2,6 +2,12 @@
      background-color: var(--color-white);
      padding:  50px 50px;
      margin-top: 50px ;
-     text-align: center;     
+     text-align: center; 
+         
+}
+
+.btn{    
+     margin-right: 10px;background-color: gray;
+     margin: 10px;     
 }
 

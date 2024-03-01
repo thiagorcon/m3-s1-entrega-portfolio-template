@@ -3,6 +3,7 @@ const BannerSection = () => {
      return (
           <div className="area">
                <h1>BannerSection</h1>
+               <button className='btn'>Botão</button>
           </div>
      )
 }
