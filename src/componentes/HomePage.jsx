@@ -1,5 +1,4 @@
 import '../styles/index.css';
-import '../componentes/Header/styles.css'
 import Header from './Header'
 import BannerSection from './BannerSection';
 import AboutMeSection from './AbouMeSection';

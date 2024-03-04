@@ -3,7 +3,7 @@ import './styles.css'
 const Footer = () =>{
      return(
 <>
-<div className='area'>
+<div id='contato' className='area'>
 <h1>Footer</h1>
 </div>
 </>

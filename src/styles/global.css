@@ -5,21 +5,30 @@
 
      --color-white : #ffffff;
      --color-black : #000000; 
+     --color-button : cornflowerblue; 
      
      
 }
 
 body{
      background-color: var(--color-black);
-     margin: 10px 10% 10px 10%;
-     
+     margin: 10px 10% 10px 10%;     
 }
 
-.btn {
-     border: 2px black dashed;
-     color:var(--color-black);
-     padding: 10px;
-     border-radius: 10px;
-     width: 100px; 
-     font-weight: bold;
+.btnGlobal{
+     background-color:var(--color-button);  
+     color: var(--color-white);       
+     width: 100px;
+     height: 35px;
+     border-radius: 15px; 
+     padding-top: 10px;  
+     padding-bottom: 10px;  
+}
+
+.nome{
+     color: var(--color-button);     
+}
+
+.letter.gr{
+     font-size: 20px;
 }

@@ -1,13 +1,37 @@
-.area{
-     background-color: var(--color-white);
-     padding:  50px 50px;
+.areaBanner{
+      background-color: var(--color-white); 
+     padding:  10px 10px;
      margin-top: 50px ;
      text-align: center; 
-         
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     height: 400px;
+     text-align: start;
+     color: var(--color-black);
+     justify-content: start;    
+     gap: 5px;
 }
 
-.btn{    
-     margin-right: 10px;background-color: gray;
-     margin: 10px;     
+.btnGlobal.btndown{
+     margin-bottom: -1000px;
+}
+.alinhar{
+     padding: 10px;
+     padding-right: 5px;
+     display: grid;
+     grid-template-rows: 1fr 1fr 1fr 1fr;
+     align-items: start;
+     height: 300px;
+     margin-right: 100px;
+}
+.alinhar.last{
+     margin-top: 20px;     
+}
+.alinharInside{
+     padding: 10px;
+}
+
+.alinhar.img{
+     padding-top: 20px;
 }
 
