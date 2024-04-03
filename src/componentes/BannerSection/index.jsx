@@ -14,7 +14,7 @@ const BannerSection = () => {
                               <h1>Bem-vindo ao meu portifólio</h1>
                          </div>
                          <div className='alinharInside'>
-                              <p>Sempre em aprendinzado e desenvolvimento pessoal e profissional.</p>
+                              <p>Sempre em aprendinzagem e em desenvolvimento pessoal e profissional.</p>
                          </div>
                          <div className='alinhar last alinharInside'>
                               <button className='btnGlobal '>Saiba mais</button>

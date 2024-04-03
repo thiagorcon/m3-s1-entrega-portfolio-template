@@ -7,8 +7,9 @@ const TechSection = () => {
             <div className='techList'>
             {technologies.map((item) => (
                 <div key={item.name} className='techCard'>
-                    <h3>{item.name}</h3>
-                 
+                    <img src={item.img} alt="imagem da tecnologia" />
+                    <h3>{item.name}</h3> 
+                                  
                 </div>
             ))}
             </div>
