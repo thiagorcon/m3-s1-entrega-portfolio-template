@@ -13,7 +13,8 @@ const CardTechSection = () => {
                               <h4>Saiba Mais</h4>
 
                               <div>
-                                   <img src="../../../assets/github-icon.png" alt="" />
+                                   <img src="../../../assets/github-icon.png" alt="imagem
+                                   " />
                               </div>
                          </div>
 
