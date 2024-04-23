@@ -1,29 +1,21 @@
-import '../ProjectSection/styles.css'
-// import { projects } from '../../data/projects';
-import CardProjectSection from './Card/index';
+import React from 'react';
+import style from './style.module.css'
+ import CardTechSection from './Card';
 
 const ProjectSection = () => {
 
-     return (
-          <>
-               <CardProjectSection />
-          </>
+    return (
 
-
-          // < className="areaTech">
-          //      <div className='projectList'>
-          //           {projects.map((item) => (
-          //                <div key={item.name} className='projectCard'>
-          //                     <h3>{item.name}</h3>
-          //                     <p>{item.description}</p>
-          //                </div>
-
-          //           ))}
-
-          //      </div>
-
-
-     )
+        <div className={style.areaTech}>
+            <div className='areaTit'>
+                <h1>Projetos</h1>
+            </div>
+            <div className={style.areaCard}>                
+                 <CardTechSection /> 
+            </div>
+            
+        </div>
+    );
 }
 
 export default ProjectSection;

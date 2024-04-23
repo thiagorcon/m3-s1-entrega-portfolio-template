@@ -3,7 +3,8 @@ import Header from './Header'
 import BannerSection from './BannerSection';
 import AboutMeSection from './AbouMeSection';
 import TechSection from './TechSection';
-import ProjectSection from './ProjectSection';
+//import ProjectSection from './ProjectSection';
+import ProjectSection from './ProjectSection'
 import Footer from './Footer';
 
 const HomePage = () => {
@@ -13,7 +14,7 @@ const HomePage = () => {
                <BannerSection />
                <AboutMeSection/>
                <TechSection/>
-               <ProjectSection/>
+               <ProjectSection/> 
                <Footer/>
           </>
      )

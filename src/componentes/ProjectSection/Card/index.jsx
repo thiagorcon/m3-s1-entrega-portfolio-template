@@ -1,24 +1,26 @@
-import '../../ProjectSection/Card/styles.css'
-import {projects} from '../../../data/projects'
+import { projects } from '../../../data/projects'
+import style from './style.module.css'
+import imagem from '../../../assets'
 
-
-const CardProjectSection = () => {
-
+const CardTechSection = () => {
      return (
-          <div className='areaProject'>
-               <div className='projectList'>
-                    {projects.map((item) => (
-                         <div className='projectCard' >
-                              <h3>{item.name}</h3>
+          <>
+               <div className={style.card}>
+                    {projects.map(item => (
+                         <div className={style.cardArea} key={item.name}>
+                              <h2>{item.name}</h2>
+                              <h3>{item.description}</h3>
+                              <h4>Saiba Mais</h4>
+
+                              <div>
+                                   <img src="../../../assets/github-icon.png" alt="" />
+                              </div>
                          </div>
 
                     ))}
-               </div>
-          </div>
-     )}
+               </div >
+          </>
+     )
+}
 
-
-               {/* <img src={item.img} alt="imagem da tecnologia" />
-                              <h3>{item.name}</h3>   */}
-
-     export default CardProjectSection;
+export default CardTechSection;

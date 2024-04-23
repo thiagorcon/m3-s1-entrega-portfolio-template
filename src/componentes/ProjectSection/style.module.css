@@ -1,0 +1,26 @@
+.areaTech{
+     /* border: solid 5px var(--color-white); */
+     /* margin-top: 50px; */
+     /* height: 300px; */
+     height: auto;    
+     width: 100%;  
+     display: grid;     
+     grid-template-rows: 2; 
+     align-items: center;
+     justify-content: start;      
+     padding: 20px 20px 20px 20px;
+     gap: 20px;  
+ }
+
+ 
+.areaTit{
+     align-content: center;  
+     color: blue;   
+     height: 10%;
+}
+
+.areaCard{
+     height: 100%;
+ }
+
+ 
