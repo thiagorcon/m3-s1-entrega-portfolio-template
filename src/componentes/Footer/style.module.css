@@ -1,0 +1,30 @@
+.area {
+  /* background-color: var(--color-white); */
+  padding: 30px 30px;
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+
+  border-top: var(--color-white) solid 1px;
+  border-bottom: var(--color-white) solid 1px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 200px;
+}
+.areaImg {
+  gap: 30px;
+  margin: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.areaText {
+  font-size: small;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+img {
+  gap: 100px;
+}

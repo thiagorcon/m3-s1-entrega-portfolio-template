@@ -1,6 +1,6 @@
 import { projects } from '../../../data/projects'
 import style from './style.module.css'
-import imagem from '../../../assets'
+import imagem from '../../../assets/github-icon.png'
 
 const CardTechSection = () => {
      return (
@@ -8,16 +8,16 @@ const CardTechSection = () => {
                <div className={style.card}>
                     {projects.map(item => (
                          <div className={style.cardArea} key={item.name}>
-                              <h2>{item.name}</h2>
-                              <h3>{item.description}</h3>
-                              <h4>Saiba Mais</h4>
-
-                              <div>
-                                   <img src="../../../assets/github-icon.png" alt="imagem
+                              <div className={style.cardText}>
+                                   <h2>{item.name}</h2>
+                                   <h3>{item.description}</h3>
+                                   <h5>Saiba Mais</h5>
+                              </div>
+                              <div className={style.cardImg}>
+                                   <img src={imagem} alt="imagem
                                    " />
                               </div>
                          </div>
-
                     ))}
                </div >
           </>
